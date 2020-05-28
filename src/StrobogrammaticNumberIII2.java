@@ -38,10 +38,10 @@ public class StrobogrammaticNumberIII2 {
             return true;
         } else if (s==e) { // odd length at the middle position, apply single digit
             for (int i =0 ; i< singles.length; i++) {
-                if ( ! ( s == 0 && i == 0 && n > 1)  ) { // first digit can't be 0
+                if ( ! ( s == 0 && i == 0 && n > 1)  ) { // first digit can't be 0 // Optional
                     ans[s] = singles[i];
                     if ( ! helper( n, s+1, e-1, len+1) ) return false;
-                }
+                } // Optional
             }
         } else { // placing two digits at both ends
             for (int i =0 ; i< pairs.length; i++) {
