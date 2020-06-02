@@ -1,7 +1,7 @@
 /**
  * Preorder Treverse A Binary Tree With Parent Pointer
  */
-public class PreorderTreverseABinaryTreeWithParentPointer {
+public class BinaryTreePreorderTraversalWithParentPointer {
     public static void printPreorder(TreeNode root) {
         TreeNode cur = root;
         while (cur != null) {

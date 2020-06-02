@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2ea7287-879a-4b2b-bcf0-a18af64849c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BinaryTreeInorderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinaryTreePreorderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PreorderTreverseABinaryTreeWithParentPointer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTreeInorderTraversalWithParentPointer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTreePostorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTreeInorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreeInorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTreePreorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreePreorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PreorderTreverseABinaryTreeWithParentPointer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreePreorderTraversalWithParentPointer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +113,7 @@
       <workItem from="1590810940156" duration="3938000" />
       <workItem from="1590892073357" duration="6107000" />
       <workItem from="1590973822821" duration="2887000" />
-      <workItem from="1591067052684" duration="1820000" />
+      <workItem from="1591067052684" duration="4264000" />
     </task>
     <task id="LOCAL-00001" summary="70, 91, 351, 377">
       <created>1590465324896</created>
@@ -196,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590977575201</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="144+">
+      <created>1591069873071</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1591069873071</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,7 +224,8 @@
     <MESSAGE value="621" />
     <MESSAGE value="1364, 1365, 1366" />
     <MESSAGE value="235, 236, 1123" />
-    <option name="LAST_COMMIT_MESSAGE" value="235, 236, 1123" />
+    <MESSAGE value="144+" />
+    <option name="LAST_COMMIT_MESSAGE" value="144+" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="0" width="1440" height="900" key="#AndroidUnlockPatterns" timestamp="1590458069903">
@@ -229,10 +240,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="486" y="342" width="467" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900@0.0.1440.900" timestamp="1590730069088" />
-    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1590977575037">
+    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1591069872891">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1590977575037" />
+    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1591069872891" />
     <state width="1396" height="245" key="GridCell.Tab.0.bottom" timestamp="1590909068244">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -273,10 +284,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1590466841840" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1590977577386">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1591069874687">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1590977577386" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1591069874687" />
     <state x="397" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1591067051818">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

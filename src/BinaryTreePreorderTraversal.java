@@ -42,20 +42,6 @@ public class BinaryTreePreorderTraversal {
         Order(res, root.left);
         Order(res,root.right);
     }
-
-
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode() {}
-        TreeNode(int val) { this.val = val; }
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
 }
 
 /*
