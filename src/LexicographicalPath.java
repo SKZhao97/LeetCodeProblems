@@ -19,8 +19,9 @@ public class LexicographicalPath {
         if(!(cur > n)) {
             res.add(cur);
             for(int i = 0; i < 10; i++) {
-                if(10 * cur + i > n)
+                if(10 * cur + i > n) {
                     return;
+                }
                 dfs(10 * cur + i, n, res);
             }
         }

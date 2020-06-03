@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2ea7287-879a-4b2b-bcf0-a18af64849c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LexicographicalPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LcaOfDeepestLeafNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MaximumDepthOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ValidBinarySearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LexicographicalPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LexicographicalPath.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +112,7 @@
       <workItem from="1590892073357" duration="6107000" />
       <workItem from="1590973822821" duration="2887000" />
       <workItem from="1591067052684" duration="4294000" />
-      <workItem from="1591153696060" duration="1256000" />
+      <workItem from="1591153696060" duration="3399000" />
     </task>
     <task id="LOCAL-00001" summary="70, 91, 351, 377">
       <created>1590465324896</created>
@@ -209,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591073826787</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="386">
+      <created>1591156166811</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1591156166811</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +239,8 @@
     <MESSAGE value="235, 236, 1123" />
     <MESSAGE value="144+" />
     <MESSAGE value="94+, 145" />
-    <option name="LAST_COMMIT_MESSAGE" value="94+, 145" />
+    <MESSAGE value="386" />
+    <option name="LAST_COMMIT_MESSAGE" value="386" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="0" width="1440" height="900" key="#AndroidUnlockPatterns" timestamp="1590458069903">
@@ -244,10 +255,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="486" y="342" width="467" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900@0.0.1440.900" timestamp="1590730069088" />
-    <state x="198" y="52" key="CommitChangelistDialog2" timestamp="1591073826631">
+    <state x="198" y="52" key="CommitChangelistDialog2" timestamp="1591156166682">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="198" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1591073826631" />
+    <state x="198" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1591156166682" />
     <state width="1396" height="245" key="GridCell.Tab.0.bottom" timestamp="1590909068244">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -288,10 +299,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1590466841840" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1591073828342">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1591156168161">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1591073828342" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1591156168161" />
     <state x="397" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1591153696036">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
