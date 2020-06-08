@@ -3,8 +3,9 @@ import java.util.LinkedList;
 /**
  * 230. Kth Smallest Element in a BST
  * https://leetcode.com/problems/kth-smallest-element-in-a-bst/
+ * June 2nd
  */
-public class KthSmallestElementInABinaryTree {
+public class KthSmallestElementInABst {
     public int kthSmallest(TreeNode root, int k) {
         LinkedList<TreeNode> stack = new LinkedList<TreeNode>();
         while(true) {
