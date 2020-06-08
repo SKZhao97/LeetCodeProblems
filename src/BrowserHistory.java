@@ -23,7 +23,6 @@ public class BrowserHistory {
         int k = history.size();
         for (int i = curIndex; i < history.size(); ) {
             history.remove(i);
-            System.out.println(history);
         }
         history.add(url);
     }
@@ -80,6 +79,8 @@ public class BrowserHistory {
         System.out.println(browserHistory.back(1));
 
     }
+
+
 
 //    ["BrowserHistory","visit","forward","forward","visit","visit","back","visit","visit","forward","back","visit","visit","visit","forward","forward","visit","visit","back","visit","forward","visit","visit","visit","back"]
 //            [["jrbilt.com"],["uiza.com"],[3],[3],["fveyl.com"],["hyhqfqf.com"],[3],["cccs.com"],["bivz.com"],[6],[1],["cmbw.com"],["iywwwfn.com"],["sktbhdx.com"],[8],[10],["bskj.com"],["thw.com"],[6],["hgesj.com"],[6],["ctb.com"],["fllnc.com"],["fs.com"],[7]]

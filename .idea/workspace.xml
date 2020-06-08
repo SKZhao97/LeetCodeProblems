@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2ea7287-879a-4b2b-bcf0-a18af64849c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BrowserHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ShuffleTheArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TheKStrongestValuesInAnArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PaintHouseIII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KthSmallestElementInABinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KthSmallestElementInABst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BrowserHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BrowserHistory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +34,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.TheKStrongestValuesInAnArray">
+  <component name="RunManager" selected="Application.PaintHouseIII">
     <configuration name="BrowserHistory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BrowserHistory" />
       <module name="LeetCode" />
@@ -51,8 +49,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReorderRoutesToMakeAllPathsLeadToTheCityZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReorderRoutesToMakeAllPathsLeadToTheCityZero" />
+    <configuration name="PaintHouseIII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PaintHouseIII" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -74,11 +72,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PaintHouseIII" />
         <item itemvalue="Application.TheKStrongestValuesInAnArray" />
         <item itemvalue="Application.BrowserHistory" />
         <item itemvalue="Application.ShuffleTheArray" />
         <item itemvalue="Application.LexicographicalPath" />
-        <item itemvalue="Application.ReorderRoutesToMakeAllPathsLeadToTheCityZero" />
       </list>
     </recent_temporary>
   </component>
@@ -114,7 +112,7 @@
       <workItem from="1591067052684" duration="4294000" />
       <workItem from="1591153696060" duration="4303000" />
       <workItem from="1591496938808" duration="5202000" />
-      <workItem from="1591579385537" duration="239000" />
+      <workItem from="1591579385537" duration="2957000" />
     </task>
     <task id="LOCAL-00001" summary="70, 91, 351, 377">
       <created>1590465324896</created>
@@ -228,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591160033645</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="1470, 1471, 1472">
+      <created>1591579874429</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1591579874429</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +255,8 @@
     <MESSAGE value="94+, 145" />
     <MESSAGE value="386" />
     <MESSAGE value="230, 104, 98" />
-    <option name="LAST_COMMIT_MESSAGE" value="230, 104, 98" />
+    <MESSAGE value="1470, 1471, 1472" />
+    <option name="LAST_COMMIT_MESSAGE" value="1470, 1471, 1472" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="0" width="1440" height="900" key="#AndroidUnlockPatterns" timestamp="1590458069903">
@@ -265,32 +271,32 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="486" y="342" width="467" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900@0.0.1440.900" timestamp="1590730069088" />
-    <state x="198" y="52" key="CommitChangelistDialog2" timestamp="1591160033517">
+    <state x="198" y="52" key="CommitChangelistDialog2" timestamp="1591579874217">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="198" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1591160033517" />
-    <state width="1396" height="245" key="GridCell.Tab.0.bottom" timestamp="1591579772077">
+    <state x="198" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1591579874217" />
+    <state width="1396" height="245" key="GridCell.Tab.0.bottom" timestamp="1591584762823">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591579772077" />
+    <state width="1396" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591584762823" />
     <state width="1396" height="245" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1590545637549" />
     <state width="1396" height="245" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1590896336873" />
-    <state width="1396" height="245" key="GridCell.Tab.0.center" timestamp="1591579772076">
+    <state width="1396" height="245" key="GridCell.Tab.0.center" timestamp="1591584762821">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591579772076" />
+    <state width="1396" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591584762821" />
     <state width="1396" height="245" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1590545637547" />
     <state width="1396" height="245" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1590896336872" />
-    <state width="1396" height="245" key="GridCell.Tab.0.left" timestamp="1591579772075">
+    <state width="1396" height="245" key="GridCell.Tab.0.left" timestamp="1591584762821">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591579772075" />
+    <state width="1396" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591584762821" />
     <state width="1396" height="245" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1590545637546" />
     <state width="1396" height="245" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1590896336872" />
-    <state width="1396" height="245" key="GridCell.Tab.0.right" timestamp="1591579772077">
+    <state width="1396" height="245" key="GridCell.Tab.0.right" timestamp="1591584762822">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591579772077" />
+    <state width="1396" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591584762822" />
     <state width="1396" height="245" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1590545637547" />
     <state width="1396" height="245" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1590896336872" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1590466841840">
@@ -309,10 +315,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1590466841840" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1591160035408">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1591579876417">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1591160035408" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1591579876417" />
     <state x="397" y="263" key="com.intellij.ide.util.TipDialog" timestamp="1591579400977">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
