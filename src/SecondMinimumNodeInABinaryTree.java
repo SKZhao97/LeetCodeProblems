@@ -25,4 +25,22 @@ public class SecondMinimumNodeInABinaryTree {
             dfs(root.right, uniques);
         }
     }
+
+    int min1;
+    long ans = Long.MAX_VALUE;
+    public void dfs(TreeNode root) {
+        if(root != null) {
+            if (min1 < root.val && root.val < ans) { // If a node satisfy the standard, then its children will not be checked
+                ans = root.val;
+            } else {
+                dfs(root.left);
+                dfs(root.right);
+            }
+        }
+    }
+    public int findSecondMinimumValueWithoutCollection(TreeNode root) {
+        min1 = root.val;
+        dfs(root);
+        return ans < Long.MAX_VALUE ? (int) ans : -1;
+    }
 }
