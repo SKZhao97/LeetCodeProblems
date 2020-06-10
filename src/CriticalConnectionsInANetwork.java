@@ -38,7 +38,8 @@ public class CriticalConnectionsInANetwork {
 
         for(int oneNeighbour : graph[node]) {
             if(oneNeighbour == parent) continue;
-            if(!visited[oneNeighbour]) criticalConnectionsUtil(graph, node, oneNeighbour, timer, visited, results, timeStampAtThatNode);
+            if(!visited[oneNeighbour])
+                criticalConnectionsUtil(graph, node, oneNeighbour, timer, visited, results, timeStampAtThatNode);
             timeStampAtThatNode[node] = Math.min(timeStampAtThatNode[node], timeStampAtThatNode[oneNeighbour]);
             if(currentTimeStamp < timeStampAtThatNode[oneNeighbour]) results.add(Arrays.asList(node, oneNeighbour));
         }
