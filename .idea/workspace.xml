@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2ea7287-879a-4b2b-bcf0-a18af64849c1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ThreeSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +33,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.MergeKSortedLists">
+  <component name="RunManager" selected="Application.ThreeSum">
     <configuration name="CriticalConnectionsInANetwork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CriticalConnectionsInANetwork" />
       <module name="LeetCode" />
@@ -61,8 +62,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrappingRainWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TrappingRainWater" />
+    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreeSum" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,11 +71,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreeSum" />
         <item itemvalue="Application.MergeKSortedLists" />
         <item itemvalue="Application.MergeTwoSortedLists" />
         <item itemvalue="Application.CriticalConnectionsInANetwork" />
         <item itemvalue="Application.ReorderDataInLogFiles" />
-        <item itemvalue="Application.TrappingRainWater" />
       </list>
     </recent_temporary>
   </component>
@@ -113,7 +114,7 @@
       <workItem from="1591579385537" duration="9195000" />
       <workItem from="1591688170479" duration="3952000" />
       <workItem from="1591787137800" duration="5652000" />
-      <workItem from="1591884811001" duration="2413000" />
+      <workItem from="1591884811001" duration="3381000" />
     </task>
     <task id="LOCAL-00001" summary="70, 91, 351, 377">
       <created>1590465324896</created>
@@ -311,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591886859138</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="21, 23">
+      <created>1591887401631</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1591887401632</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,35 +366,35 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="486" y="342" width="467" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900@0.0.1440.900" timestamp="1590730069088" />
-    <state x="198" y="52" key="CommitChangelistDialog2" timestamp="1591886858960">
+    <state x="198" y="52" key="CommitChangelistDialog2" timestamp="1591887401503">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="198" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1591886858960" />
-    <state width="1396" height="245" key="GridCell.Tab.0.bottom" timestamp="1591887018971">
+    <state x="198" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1591887401503" />
+    <state width="1396" height="245" key="GridCell.Tab.0.bottom" timestamp="1591887693727">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591887018971" />
+    <state width="1396" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591887693727" />
     <state width="1396" height="245" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1591602600701" />
     <state width="1396" height="245" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1590545637549" />
     <state width="1396" height="245" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1590896336873" />
-    <state width="1396" height="245" key="GridCell.Tab.0.center" timestamp="1591887018969">
+    <state width="1396" height="245" key="GridCell.Tab.0.center" timestamp="1591887693725">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591887018969" />
+    <state width="1396" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591887693725" />
     <state width="1396" height="245" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1591602600701" />
     <state width="1396" height="245" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1590545637547" />
     <state width="1396" height="245" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1590896336872" />
-    <state width="1396" height="245" key="GridCell.Tab.0.left" timestamp="1591887018968">
+    <state width="1396" height="245" key="GridCell.Tab.0.left" timestamp="1591887693723">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591887018968" />
+    <state width="1396" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591887693723" />
     <state width="1396" height="245" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1591602600700" />
     <state width="1396" height="245" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1590545637546" />
     <state width="1396" height="245" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1590896336872" />
-    <state width="1396" height="245" key="GridCell.Tab.0.right" timestamp="1591887018970">
+    <state width="1396" height="245" key="GridCell.Tab.0.right" timestamp="1591887693727">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591887018970" />
+    <state width="1396" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591887693727" />
     <state width="1396" height="245" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1591602600701" />
     <state width="1396" height="245" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1590545637547" />
     <state width="1396" height="245" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1590896336872" />
@@ -406,10 +414,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1590466841840" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1591886860355">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1591887403869">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1591886860355" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1591887403869" />
     <state x="397" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1591884810772">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
