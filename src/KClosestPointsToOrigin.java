@@ -10,7 +10,9 @@ public class KClosestPointsToOrigin {
         int len = points.length, l = 0, r = len - 1;
         while (l < r) {
             int mid = helper(points, l, r);
-            if (mid == K)
+            System.out.println(mid);
+
+            if (mid == K - 1)
                 break;
             else if(mid < K)
                 l = mid + 1;
@@ -39,6 +41,7 @@ public class KClosestPointsToOrigin {
     public static void main(String[] args) {
         KClosestPointsToOrigin kClosestPointsToOrigin = new KClosestPointsToOrigin();
         int[][] points = new int[][]{{1,3},{-2,2}};
+//        int[][] points = new int[][]{{3,3},{5,-1}, {-2, 4}};
         int k = 1;
 
         int[][] res = kClosestPointsToOrigin.kClosest(points, k);

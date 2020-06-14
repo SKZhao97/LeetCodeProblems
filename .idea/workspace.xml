@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2ea7287-879a-4b2b-bcf0-a18af64849c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/KClosestPointsToOrigin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeastNumberOfUniqueIntegersAfterKRemovals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MinimumNumberOfDaysToMakeMBouquet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RunningSumOfOneDArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KClosestPointsToOrigin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KClosestPointsToOrigin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,23 +36,23 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.KClosestPointsToOrigin">
-    <configuration name="BestTimeToBuyAndSellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BestTimeToBuyAndSellStock" />
-      <module name="LeetCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BestTimeToBuyAndSellStockII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BestTimeToBuyAndSellStockII" />
-      <module name="LeetCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MinimumNumberOfDaysToMakeMBouquet">
     <configuration name="KClosestPointsToOrigin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="KClosestPointsToOrigin" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeastNumberOfUniqueIntegersAfterKRemovals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeastNumberOfUniqueIntegersAfterKRemovals" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumNumberOfDaysToMakeMBouquet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MinimumNumberOfDaysToMakeMBouquet" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -62,8 +65,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreeSum" />
+    <configuration name="RunningSumOfOneDArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RunningSumOfOneDArray" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -71,11 +74,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinimumNumberOfDaysToMakeMBouquet" />
+        <item itemvalue="Application.LeastNumberOfUniqueIntegersAfterKRemovals" />
+        <item itemvalue="Application.RunningSumOfOneDArray" />
         <item itemvalue="Application.KClosestPointsToOrigin" />
         <item itemvalue="Application.RottingOranges" />
-        <item itemvalue="Application.BestTimeToBuyAndSellStockII" />
-        <item itemvalue="Application.BestTimeToBuyAndSellStock" />
-        <item itemvalue="Application.ThreeSum" />
       </list>
     </recent_temporary>
   </component>
@@ -115,7 +118,8 @@
       <workItem from="1591688170479" duration="3952000" />
       <workItem from="1591787137800" duration="5652000" />
       <workItem from="1591884811001" duration="6320000" />
-      <workItem from="1591940834391" duration="1710000" />
+      <workItem from="1591940834391" duration="3258000" />
+      <workItem from="1592100264248" duration="6147000" />
     </task>
     <task id="LOCAL-00001" summary="70, 91, 351, 377">
       <created>1590465324896</created>
@@ -348,14 +352,20 @@
       <option name="project" value="LOCAL" />
       <updated>1591974768938</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="973">
+      <created>1591976562327</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1591976562327</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="739, 743" />
     <MESSAGE value="347" />
     <MESSAGE value="621" />
     <MESSAGE value="1364, 1365, 1366" />
@@ -380,50 +390,55 @@
     <MESSAGE value="121, 122" />
     <MESSAGE value="994" />
     <MESSAGE value="1469" />
-    <option name="LAST_COMMIT_MESSAGE" value="1469" />
+    <MESSAGE value="973" />
+    <option name="LAST_COMMIT_MESSAGE" value="973" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="0" width="1440" height="900" key="#AndroidUnlockPatterns" timestamp="1590458069903">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="0" y="0" width="1440" height="900" key="#AndroidUnlockPatterns/0.0.1440.900@0.0.1440.900" timestamp="1590458069903" />
-    <state x="460" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1591500404707">
+    <state x="460" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1592102695760">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="460" y="158" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1591500404707" />
+    <state x="460" y="158" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1592102695760" />
     <state x="486" y="342" width="467" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1590730069088">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="486" y="342" width="467" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900@0.0.1440.900" timestamp="1590730069088" />
-    <state x="511" y="105" key="CommitChangelistDialog2" timestamp="1591974768758">
+    <state x="511" y="105" key="CommitChangelistDialog2" timestamp="1591976562214">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="511" y="105" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1591974768758" />
-    <state width="1396" height="245" key="GridCell.Tab.0.bottom" timestamp="1591975495381">
+    <state x="511" y="105" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1591976562214" />
+    <state width="1396" height="245" key="GridCell.Tab.0.bottom" timestamp="1592110569345">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591975495381" />
+    <state width="1396" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592110569345" />
+    <state width="1396" height="245" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1592104900121" />
     <state width="1396" height="245" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1591888660169" />
     <state width="1396" height="245" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1591892508750" />
     <state width="1396" height="245" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1590896336873" />
-    <state width="1396" height="245" key="GridCell.Tab.0.center" timestamp="1591975495380">
+    <state width="1396" height="245" key="GridCell.Tab.0.center" timestamp="1592110569344">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591975495380" />
+    <state width="1396" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592110569344" />
+    <state width="1396" height="245" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1592104900120" />
     <state width="1396" height="245" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1591888660168" />
     <state width="1396" height="245" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1591892508748" />
     <state width="1396" height="245" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1590896336872" />
-    <state width="1396" height="245" key="GridCell.Tab.0.left" timestamp="1591975495379">
+    <state width="1396" height="245" key="GridCell.Tab.0.left" timestamp="1592110569344">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591975495379" />
+    <state width="1396" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592110569344" />
+    <state width="1396" height="245" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1592104900120" />
     <state width="1396" height="245" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1591888660167" />
     <state width="1396" height="245" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1591892508747" />
     <state width="1396" height="245" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1590896336872" />
-    <state width="1396" height="245" key="GridCell.Tab.0.right" timestamp="1591975495380">
+    <state width="1396" height="245" key="GridCell.Tab.0.right" timestamp="1592110569345">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591975495380" />
+    <state width="1396" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592110569345" />
+    <state width="1396" height="245" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1592104900121" />
     <state width="1396" height="245" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1591888660168" />
     <state width="1396" height="245" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1591892508749" />
     <state width="1396" height="245" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1590896336872" />
@@ -443,14 +458,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1590466841840" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1591974770786">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1591976564102">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1591974770786" />
-    <state x="397" y="249" key="com.intellij.ide.util.TipDialog" timestamp="1591940837942">
-      <screen x="0" y="23" width="1440" height="803" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1591976564102" />
+    <state x="397" y="248" key="com.intellij.ide.util.TipDialog" timestamp="1592100328222">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="397" y="253" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1591884810772" />
+    <state x="397" y="248" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1592100328222" />
     <state x="397" y="249" key="com.intellij.ide.util.TipDialog/0.23.1440.803@0.23.1440.803" timestamp="1591940837942" />
     <state x="397" y="264" key="com.intellij.ide.util.TipDialog/0.23.1440.806@0.23.1440.806" timestamp="1590892075542" />
     <state x="388" y="248" key="git4idea.merge.GitPullDialog" timestamp="1591611314844">
