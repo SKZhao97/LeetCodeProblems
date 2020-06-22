@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2ea7287-879a-4b2b-bcf0-a18af64849c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ReorganizeString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CloneBinaryTreeWithRandomPointer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NodeCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/XOROperationInAnArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +39,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.ReorganizeString">
+  <component name="RunManager" selected="Application.XOROperationInAnArray">
     <configuration name="DecodeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DecodeString" />
       <module name="LeetCode" />
@@ -46,13 +49,6 @@
     </configuration>
     <configuration name="Logger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Logger" />
-      <module name="LeetCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaximalSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MaximalSquare" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -72,13 +68,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="XOROperationInAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="XOROperationInAnArray" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.XOROperationInAnArray" />
         <item itemvalue="Application.ReorganizeString" />
         <item itemvalue="Application.Logger" />
         <item itemvalue="Application.MinimumSizeSubarraySum" />
         <item itemvalue="Application.DecodeString" />
-        <item itemvalue="Application.MaximalSquare" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +129,8 @@
       <workItem from="1592450115507" duration="1092000" />
       <workItem from="1592628571561" duration="26000" />
       <workItem from="1592629382944" duration="3860000" />
-      <workItem from="1592710129436" duration="9449000" />
+      <workItem from="1592710129436" duration="9772000" />
+      <workItem from="1592793301342" duration="3878000" />
     </task>
     <task id="LOCAL-00001" summary="70, 91, 351, 377">
       <created>1590465324896</created>
@@ -436,14 +440,20 @@
       <option name="project" value="LOCAL" />
       <updated>1592729058509</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="767">
+      <created>1592743253620</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1592743253620</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="256" />
     <MESSAGE value="276" />
     <MESSAGE value="671" />
     <MESSAGE value="872" />
@@ -468,7 +478,8 @@
     <MESSAGE value="394" />
     <MESSAGE value="209" />
     <MESSAGE value="359" />
-    <option name="LAST_COMMIT_MESSAGE" value="359" />
+    <MESSAGE value="767" />
+    <option name="LAST_COMMIT_MESSAGE" value="767" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="0" width="1440" height="900" key="#AndroidUnlockPatterns" timestamp="1590458069903">
@@ -487,38 +498,38 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="486" y="342" width="467" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900@0.0.1440.900" timestamp="1590730069088" />
-    <state x="511" y="105" key="CommitChangelistDialog2" timestamp="1592729058382">
+    <state x="511" y="105" key="CommitChangelistDialog2" timestamp="1592743253502">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="511" y="105" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1592729058382" />
-    <state width="1396" height="169" key="GridCell.Tab.0.bottom" timestamp="1592734866299">
+    <state x="511" y="105" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1592743253502" />
+    <state width="1396" height="169" key="GridCell.Tab.0.bottom" timestamp="1592753052410">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="169" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592734866299" />
+    <state width="1396" height="169" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592753052410" />
     <state width="1396" height="245" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1592646043769" />
     <state width="1396" height="245" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1591888660169" />
     <state width="1396" height="245" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1591892508750" />
     <state width="1396" height="245" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1590896336873" />
-    <state width="1396" height="169" key="GridCell.Tab.0.center" timestamp="1592734866299">
+    <state width="1396" height="169" key="GridCell.Tab.0.center" timestamp="1592753052408">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="169" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592734866299" />
+    <state width="1396" height="169" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592753052408" />
     <state width="1396" height="245" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1592646043768" />
     <state width="1396" height="245" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1591888660168" />
     <state width="1396" height="245" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1591892508748" />
     <state width="1396" height="245" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1590896336872" />
-    <state width="1396" height="169" key="GridCell.Tab.0.left" timestamp="1592734866298">
+    <state width="1396" height="169" key="GridCell.Tab.0.left" timestamp="1592753052408">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="169" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592734866298" />
+    <state width="1396" height="169" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592753052408" />
     <state width="1396" height="245" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1592646043768" />
     <state width="1396" height="245" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1591888660167" />
     <state width="1396" height="245" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1591892508747" />
     <state width="1396" height="245" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1590896336872" />
-    <state width="1396" height="169" key="GridCell.Tab.0.right" timestamp="1592734866299">
+    <state width="1396" height="169" key="GridCell.Tab.0.right" timestamp="1592753052409">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="169" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592734866299" />
+    <state width="1396" height="169" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592753052409" />
     <state width="1396" height="245" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1592646043769" />
     <state width="1396" height="245" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1591888660168" />
     <state width="1396" height="245" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1591892508749" />
@@ -539,14 +550,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1590466841840" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1592729059819">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1592743255591">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1592729059819" />
-    <state x="397" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1592710149442">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1592743255591" />
+    <state x="397" y="230" key="com.intellij.ide.util.TipDialog" timestamp="1592793334966">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="397" y="232" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1592710149442" />
+    <state x="397" y="230" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1592793334966" />
     <state x="397" y="249" key="com.intellij.ide.util.TipDialog/0.23.1440.803@0.23.1440.803" timestamp="1591940837942" />
     <state x="397" y="264" key="com.intellij.ide.util.TipDialog/0.23.1440.806@0.23.1440.806" timestamp="1590892075542" />
     <state x="388" y="248" key="git4idea.merge.GitPullDialog" timestamp="1591611314844">

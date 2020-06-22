@@ -1,12 +1,15 @@
-public class Node {
+/**
+ *
+ */
+public class NodeCopy {
     int val;
-    Node next;
-    Node random;
+    NodeCopy next;
+    NodeCopy random;
 
-    Node left;
-    Node right;
+    NodeCopy left;
+    NodeCopy right;
 
-    public Node(int val) {
+    public NodeCopy(int val) {
         this.val = val;
         this.next = null;
         this.random = null;
