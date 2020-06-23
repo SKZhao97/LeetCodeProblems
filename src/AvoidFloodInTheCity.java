@@ -17,6 +17,7 @@ public class AvoidFloodInTheCity {
         for (int i = 0; i < rains.length; i++) {
             if (rains[i] == 0) {
                 zeros.add(i);
+                res[i] = 1;
             } else {
                 if (map.containsKey(rains[i])) {
                     // find the location of zero that can be used to empty rains[i]
@@ -29,7 +30,6 @@ public class AvoidFloodInTheCity {
                 map.put(rains[i], i);
             }
         }
-        for (int i : zeros) res[i] = 1;
         return res;
     }
 
