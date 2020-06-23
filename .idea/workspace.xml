@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2ea7287-879a-4b2b-bcf0-a18af64849c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MovingAverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LongestStringChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ValidSquare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +37,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.MovingAverage">
+  <component name="RunManager" selected="Application.LongestStringChain">
     <configuration name="AvoidFloodInTheCity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AvoidFloodInTheCity" />
       <module name="LeetCode" />
@@ -51,8 +52,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MakingFileNamesUnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MakingFileNamesUnique" />
+    <configuration name="LongestStringChain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LongestStringChain" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -65,8 +66,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XOROperationInAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="XOROperationInAnArray" />
+    <configuration name="ValidSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ValidSquare" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -74,11 +75,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestStringChain" />
+        <item itemvalue="Application.ValidSquare" />
         <item itemvalue="Application.MovingAverage" />
         <item itemvalue="Application.BullsAndCows" />
         <item itemvalue="Application.AvoidFloodInTheCity" />
-        <item itemvalue="Application.MakingFileNamesUnique" />
-        <item itemvalue="Application.XOROperationInAnArray" />
       </list>
     </recent_temporary>
   </component>
@@ -128,14 +129,7 @@
       <workItem from="1592629382944" duration="3860000" />
       <workItem from="1592710129436" duration="9772000" />
       <workItem from="1592793301342" duration="10173000" />
-      <workItem from="1592877636092" duration="2635000" />
-    </task>
-    <task id="LOCAL-00001" summary="70, 91, 351, 377">
-      <created>1590465324896</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1590465324896</updated>
+      <workItem from="1592877636092" duration="6832000" />
     </task>
     <task id="LOCAL-00002" summary="246">
       <created>1590466834822</created>
@@ -473,14 +467,20 @@
       <option name="project" value="LOCAL" />
       <updated>1592880498686</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="346">
+      <created>1592882937585</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1592882937585</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="49" />
     <MESSAGE value="5, 42, 238" />
     <MESSAGE value="937" />
     <MESSAGE value="1192" />
@@ -505,7 +505,8 @@
     <MESSAGE value="1487" />
     <MESSAGE value="1488" />
     <MESSAGE value="299" />
-    <option name="LAST_COMMIT_MESSAGE" value="299" />
+    <MESSAGE value="346" />
+    <option name="LAST_COMMIT_MESSAGE" value="346" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="0" width="1440" height="900" key="#AndroidUnlockPatterns" timestamp="1590458069903">
@@ -524,39 +525,40 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="486" y="342" width="467" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900@0.0.1440.900" timestamp="1590730069088" />
-    <state x="511" y="105" key="CommitChangelistDialog2" timestamp="1592880498504">
+    <state x="511" y="105" key="CommitChangelistDialog2" timestamp="1592882937443">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="511" y="105" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1592880498504" />
-    <state width="1396" height="169" key="GridCell.Tab.0.bottom" timestamp="1592881652575">
+    <state x="511" y="105" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1592882937443" />
+    <state width="1396" height="169" key="GridCell.Tab.0.bottom" timestamp="1592902859209">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="169" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592881652575" />
-    <state width="1396" height="245" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1592646043769" />
+    <state width="1396" height="169" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592902859209" />
+    <state width="1396" height="169" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1592883976543" />
     <state width="1396" height="245" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1591888660169" />
     <state width="1396" height="169" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1592809317846" />
     <state width="1396" height="245" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1590896336873" />
-    <state width="1396" height="169" key="GridCell.Tab.0.center" timestamp="1592881652574">
+    <state width="1396" height="169" key="GridCell.Tab.0.center" timestamp="1592902859208">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="169" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592881652574" />
-    <state width="1396" height="245" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1592646043768" />
+    <state width="1396" height="169" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592902859208" />
+    <state width="1396" height="169" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1592883976542" />
     <state width="1396" height="245" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1591888660168" />
     <state width="1396" height="169" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1592809317845" />
     <state width="1396" height="245" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1590896336872" />
-    <state width="1396" height="169" key="GridCell.Tab.0.left" timestamp="1592881652574">
+    <state width="1396" height="169" key="GridCell.Tab.0.left" timestamp="1592902859207">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="169" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592881652574" />
-    <state width="1396" height="245" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1592646043768" />
+    <state width="1396" height="169" key="GridCell.Tab.0.left/0.0.1440.824@0.0.1440.900" timestamp="1592901516390" />
+    <state width="1396" height="169" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592902859207" />
+    <state width="1396" height="169" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1592883976541" />
     <state width="1396" height="245" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1591888660167" />
     <state width="1396" height="169" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1592809317844" />
     <state width="1396" height="245" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1590896336872" />
-    <state width="1396" height="169" key="GridCell.Tab.0.right" timestamp="1592881652575">
+    <state width="1396" height="169" key="GridCell.Tab.0.right" timestamp="1592902859209">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="169" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592881652575" />
-    <state width="1396" height="245" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1592646043769" />
+    <state width="1396" height="169" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592902859209" />
+    <state width="1396" height="169" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1592883976542" />
     <state width="1396" height="245" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1591888660168" />
     <state width="1396" height="169" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1592809317845" />
     <state width="1396" height="245" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1590896336872" />
@@ -580,10 +582,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="485" y="168" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1592878591885" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1592880500335">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1592882939193">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1592880500335" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1592882939193" />
     <state x="397" y="230" key="com.intellij.ide.util.TipDialog" timestamp="1592877635607">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
