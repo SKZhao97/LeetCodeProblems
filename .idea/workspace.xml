@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2ea7287-879a-4b2b-bcf0-a18af64849c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CourseSchedule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CourseScheduleII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SnakesAndLadders.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,14 +129,7 @@
       <workItem from="1592710129436" duration="9772000" />
       <workItem from="1592793301342" duration="10173000" />
       <workItem from="1592877636092" duration="7505000" />
-      <workItem from="1592973782501" duration="8747000" />
-    </task>
-    <task id="LOCAL-00004" summary="248">
-      <created>1590552237292</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1590552237292</updated>
+      <workItem from="1592973782501" duration="11022000" />
     </task>
     <task id="LOCAL-00005" summary="248">
       <created>1590636754258</created>
@@ -475,14 +467,20 @@
       <option name="project" value="LOCAL" />
       <updated>1592985708925</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="207， 210">
+      <created>1592999593234</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1592999593234</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1192" />
     <MESSAGE value="21, 23" />
     <MESSAGE value="15" />
     <MESSAGE value="121, 122" />
@@ -507,7 +505,8 @@
     <MESSAGE value="346" />
     <MESSAGE value="1048" />
     <MESSAGE value="764 957 1099 1167" />
-    <option name="LAST_COMMIT_MESSAGE" value="764 957 1099 1167" />
+    <MESSAGE value="207， 210" />
+    <option name="LAST_COMMIT_MESSAGE" value="207， 210" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="0" width="1440" height="900" key="#AndroidUnlockPatterns" timestamp="1590458069903">
@@ -526,10 +525,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="486" y="342" width="467" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900@0.0.1440.900" timestamp="1590730069088" />
-    <state x="511" y="105" key="CommitChangelistDialog2" timestamp="1592985708661">
+    <state x="511" y="105" key="CommitChangelistDialog2" timestamp="1592999593099">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="511" y="105" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1592985708661" />
+    <state x="511" y="105" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1592999593099" />
     <state width="1396" height="169" key="GridCell.Tab.0.bottom" timestamp="1592995664240">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
@@ -583,10 +582,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="485" y="168" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1592878591885" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1592985710332">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1592999594298">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1592985710332" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1592999594298" />
     <state x="397" y="228" key="com.intellij.ide.util.TipDialog" timestamp="1592973787594">
       <screen x="0" y="23" width="1440" height="804" />
     </state>
