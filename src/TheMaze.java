@@ -1,7 +1,7 @@
 /**
  * 490. The Maze
  * https://leetcode.com/problems/the-maze/
- * June 25th
+ * June 26th
  */
 public class TheMaze {
     int[] dirX = new int[]{-1, 1, 0, 0};
