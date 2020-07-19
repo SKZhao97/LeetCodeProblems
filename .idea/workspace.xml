@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2ea7287-879a-4b2b-bcf0-a18af64849c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MaximumLengthOfAConcatenatedStringWithUniqueCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MaximumNumberOfNonOverlappingSubstrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumberOfNodesInSubTreeWithSameLabel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NumberOfNodesInTheSubTreeWithSameLabel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WaterBottles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,14 +39,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.MaximumLengthOfAConcatenatedStringWithUniqueCharacters">
-    <configuration name="ImplementStackUsingQueues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ImplementStackUsingQueues" />
-      <module name="LeetCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.NumberOfNodesInSubTreeWithSameLabel">
     <configuration name="MaximumLengthOfAConcatenatedStringWithUniqueCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MaximumLengthOfAConcatenatedStringWithUniqueCharacters" />
       <module name="LeetCode" />
@@ -51,22 +47,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NumArray" />
+    <configuration name="MaximumNumberOfNonOverlappingSubstrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaximumNumberOfNonOverlappingSubstrings" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidPerfectSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ValidPerfectSquare" />
+    <configuration name="NumberOfNodesInSubTreeWithSameLabel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NumberOfNodesInSubTreeWithSameLabel" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WordPattern" />
+    <configuration name="NumberOfNodesInTheSubTreeWithSameLabel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NumberOfNodesInTheSubTreeWithSameLabel" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WaterBottles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WaterBottles" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -74,11 +77,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberOfNodesInSubTreeWithSameLabel" />
+        <item itemvalue="Application.MaximumNumberOfNonOverlappingSubstrings" />
+        <item itemvalue="Application.NumberOfNodesInTheSubTreeWithSameLabel" />
+        <item itemvalue="Application.WaterBottles" />
         <item itemvalue="Application.MaximumLengthOfAConcatenatedStringWithUniqueCharacters" />
-        <item itemvalue="Application.ValidPerfectSquare" />
-        <item itemvalue="Application.WordPattern" />
-        <item itemvalue="Application.NumArray" />
-        <item itemvalue="Application.ImplementStackUsingQueues" />
       </list>
     </recent_temporary>
   </component>
@@ -138,14 +141,7 @@
       <workItem from="1593507408174" duration="5207000" />
       <workItem from="1593565610695" duration="7743000" />
       <workItem from="1593698038909" duration="6790000" />
-      <workItem from="1594819115850" duration="2080000" />
-    </task>
-    <task id="LOCAL-00024" summary="5, 42, 238">
-      <created>1591707189310</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1591707189310</updated>
+      <workItem from="1594819115850" duration="10192000" />
     </task>
     <task id="LOCAL-00025" summary="937">
       <created>1591789524056</created>
@@ -483,14 +479,20 @@
       <option name="project" value="LOCAL" />
       <updated>1593706730028</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="1239">
+      <created>1594830161395</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1594830161395</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1488" />
     <MESSAGE value="299" />
     <MESSAGE value="346" />
     <MESSAGE value="1048" />
@@ -515,7 +517,8 @@
     <MESSAGE value="303" />
     <MESSAGE value="290" />
     <MESSAGE value="367" />
-    <option name="LAST_COMMIT_MESSAGE" value="367" />
+    <MESSAGE value="1239" />
+    <option name="LAST_COMMIT_MESSAGE" value="1239" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="0" width="1440" height="900" key="#AndroidUnlockPatterns" timestamp="1590458069903">
@@ -534,46 +537,46 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="486" y="342" width="467" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900@0.0.1440.900" timestamp="1590730069088" />
-    <state x="511" y="105" key="CommitChangelistDialog2" timestamp="1593706729908">
+    <state x="511" y="105" key="CommitChangelistDialog2" timestamp="1594830161163">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="511" y="105" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1593706729908" />
-    <state width="1396" height="303" key="GridCell.Tab.0.bottom" timestamp="1593706741922">
+    <state x="511" y="105" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1594830161163" />
+    <state width="1396" height="169" key="GridCell.Tab.0.bottom" timestamp="1595172264037">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593706741922" />
+    <state width="1396" height="169" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1595172264037" />
     <state width="1396" height="169" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1593615541328" />
     <state width="1396" height="245" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1591888660169" />
     <state width="1396" height="169" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1593704888919" />
-    <state width="1396" height="245" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1590896336873" />
+    <state width="1396" height="169" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1595130464662" />
     <state width="1396" height="169" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1593152650131" />
-    <state width="1396" height="303" key="GridCell.Tab.0.center" timestamp="1593706741921">
+    <state width="1396" height="169" key="GridCell.Tab.0.center" timestamp="1595172264035">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="303" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1593706741921" />
+    <state width="1396" height="169" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1595172264035" />
     <state width="1396" height="169" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1593615541327" />
     <state width="1396" height="245" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1591888660168" />
     <state width="1396" height="169" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1593704888918" />
-    <state width="1396" height="245" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1590896336872" />
+    <state width="1396" height="169" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1595130464662" />
     <state width="1396" height="169" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1593152650131" />
-    <state width="1396" height="303" key="GridCell.Tab.0.left" timestamp="1593706741920">
+    <state width="1396" height="169" key="GridCell.Tab.0.left" timestamp="1595172264035">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1396" height="169" key="GridCell.Tab.0.left/0.0.1440.824@0.0.1440.900" timestamp="1592901516390" />
-    <state width="1396" height="303" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1593706741920" />
+    <state width="1396" height="169" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1595172264035" />
     <state width="1396" height="169" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1593615541326" />
     <state width="1396" height="245" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1591888660167" />
     <state width="1396" height="169" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1593704888918" />
-    <state width="1396" height="245" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1590896336872" />
+    <state width="1396" height="169" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1595130464661" />
     <state width="1396" height="169" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1593152650130" />
-    <state width="1396" height="303" key="GridCell.Tab.0.right" timestamp="1593706741921">
+    <state width="1396" height="169" key="GridCell.Tab.0.right" timestamp="1595172264036">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="303" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1593706741921" />
+    <state width="1396" height="169" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1595172264036" />
     <state width="1396" height="169" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1593615541328" />
     <state width="1396" height="245" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1591888660168" />
     <state width="1396" height="169" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1593704888919" />
-    <state width="1396" height="245" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1590896336872" />
+    <state width="1396" height="169" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1595130464662" />
     <state width="1396" height="169" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1593152650131" />
     <state width="1396" height="303" key="GridCell.Tab.1.bottom" timestamp="1593706741923">
       <screen x="0" y="0" width="1440" height="900" />
@@ -599,10 +602,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="485" y="168" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1592878591885" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1593706731074">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1594830163295">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1593706731074" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1594830163295" />
     <state x="397" y="228" key="com.intellij.ide.util.TipDialog" timestamp="1594819149038">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -618,9 +621,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="385" y="210" width="670" height="675" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1590549895645" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1592630194880">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1595130208120">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1592630194880" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1595130208120" />
   </component>
 </project>
